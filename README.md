@@ -57,7 +57,7 @@ Router --> |LAN 1| Printer
 
 ---
 
-Imagem da topologia utilizada no laboratório:
+# Imagem da topologia utilizada no laboratório:
 
 ![](topologia.png)
 
