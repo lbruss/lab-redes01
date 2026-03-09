@@ -63,7 +63,33 @@ Router --> |LAN 1| Printer
 
 ---
 
+## 4. Plano de endereçamento IP
 
+Rede: 192.168.0.0/24
+Gateway: 192.168.0.1
 
+| Dispositivo | Tipo de IP | Endereço de IP | Observação |
+|-------------|-------------|-------------|-------------|
+| Roteador | Estático | 192.168.0.1 | IP do roteador |
+| Impressora | Reserva DHCP | 192.168.0.102 | IP reservado pelo roteador |
+| PC1 | Reserva DHCP | 192.168.0.103 | IP reservado pelo roteador |
+| PC2 | DHCP | Automático | IP atribuído pelo roteador |
+| PC3 | DHCP | Automático | IP atribuído pelo roteador |
 
+**Observação**
 
+- A impressora e um dos notebooks utilizaram reserva de DHCP.
+- O roteador sempre contribuir o mesmo endereço IP a esses dispositivos.
+
+---
+
+## 5. Conclusão
+
+Este laboratório permitiu compreender o funcionamento de uma rede simples, incluindo:
+
+- Estrutura de uma Rede Doméstica ou de pequeno escritório
+- Utilização de um roteador com porta WAN e portas LAN
+- Funcionamento do DHCP
+- Comunicação entre dispositivos na rede local
+- Utilização de uma impressora de rede
+- Compartilhamento de pastas na rede
