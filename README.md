@@ -1,6 +1,5 @@
 ![GitHub License](https://img.shields.io/github/license/lbruss/lab-redes01?style=flat)
 
-
 # Laboratório de Redes 01 - Projeto de Rede Local
 Projeto desenvolvido na disciplina de Redes de Computadores no Curso Técnico de Informática do SENAC.
 
